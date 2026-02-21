@@ -36,17 +36,17 @@ A fun, interactive True/False quiz game with a GUI built in Python. Test your kn
 
 1. Clone or download this project
 2. Install required packages:
-`ash
+```bash
 pip install requests
-`
+```
 
 ## Quick Start
 
 Open a terminal in the project folder and run:
 
-`ash
+```bash
 python main.py
-`
+```
 
 The quiz window will open automatically. Answer each question by clicking the **True** or **False** button!
 
@@ -59,7 +59,7 @@ The quiz window will open automatically. Answer each question by clicking the **
 
 ## Project Structure
 
-`
+```
 quiz-game-start/
 ├── main.py              # Entry point - initializes the quiz
 ├── data.py              # Fetches questions from Open Trivia Database API
@@ -68,4 +68,4 @@ quiz-game-start/
 ├── ui.py                # Tkinter GUI implementation
 ├── README.md            # This file
 └── images/              # UI images (true.png, false.png)
-`
+```
